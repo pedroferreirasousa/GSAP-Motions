@@ -4,6 +4,7 @@
 $bg-color: #1a2228;
 $primary-color: #dedede;
 $secondary-color: #1da360;
+$code-color: #99bee0;
 
 
 *{
@@ -69,7 +70,7 @@ header{
 }
 
 .container-geral{
-    width: 100%;
+    width: 100vw;
     height: auto;
     min-height: 92vh;
     display: flex;

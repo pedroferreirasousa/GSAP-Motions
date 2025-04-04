@@ -58,7 +58,7 @@ header a:hover {
 }
 
 .container-geral {
-  width: 100%;
+  width: 100vw;
   height: auto;
   min-height: 92vh;
   display: flex;

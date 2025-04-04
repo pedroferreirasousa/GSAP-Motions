@@ -68,25 +68,67 @@ header a:hover {
   background-color: #1a2228;
 }
 
+.container-geral {
+  display: flex;
+  text-align: center;
+}
+
 h1 {
   margin: 16px 0px;
 }
 
 p {
-  color: #1da360;
+  color: #99bee0;
   margin: 16px 0px;
 }
 
 .container-div {
-  max-width: 1200px;
-  height: 300px;
+  width: 350px;
+  height: 150px;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 300px;
 }
 .container-div .item {
-  width: 240px;
-  height: 90%;
-  margin: 5px;
+  width: 100px;
+  height: 100px;
   background-color: #3f3d3d;
-  border-radius: 10px;
-}/*# sourceMappingURL=set.css.map */
+}
+
+.btn-animation {
+  background-color: #dedede;
+  color: #1da360;
+  font-size: 24px;
+  width: 280px;
+  margin-top: 40px;
+  height: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn-animation:hover {
+  background-color: #1da360;
+  color: #dedede;
+  scale: 0.95;
+}
+.btn-animation[disabled] {
+  background-color: grey;
+  color: #dedede;
+  scale: 0.95;
+  cursor: not-allowed;
+}
+
+.code {
+  padding: 16px;
+  width: auto;
+  margin: 40px auto 0px auto;
+  line-height: 1.5;
+  display: flex;
+  word-wrap: wrap;
+  white-space: pre-line;
+  overflow-wrap: break-word;
+  color: #1da360;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+}/*# sourceMappingURL=to.css.map */

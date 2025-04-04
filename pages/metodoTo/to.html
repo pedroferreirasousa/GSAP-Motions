@@ -1,0 +1,46 @@
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método Set()</title>
+    <link rel="stylesheet" href="to.css">
+</head>
+<body>
+    <section class="container-geral">
+        <h1 class="title">GSAP: Método To</h1>
+        <p>É um método que "seta" as configurações finais do elemento.</p>
+        <div class="container-div">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+
+        <button onclick="animarItens()" id="btn-start" class="btn-animation">Fazer Animação</button>
+
+        <pre class="code">
+gsap.to(item, 1.5 , {
+x: (index === 0) ? 100 : (index === 1) ? 0 : -100 , 
+rotate: (index === 0 ) ? "90deg" : (index === 1) ? "0deg" : 
+"-90deg", 
+repeat: 1,   
+yoyo: true, 
+ease: "power2.inOut", 
+borderRadius: "50%",
+boxShadow: (index === 0) ? "15px 10px 30px 10px rgba(235, 0, 0,
+0.5)" : 
+(index === 1) ? "10px 10px 30px 10px rgba(46, 230, 0, 0.5)" :  
+"10px 10px
+30px10px rgba(0, 4, 243, 0.5)",
+mixBlendMode: "lighten",
+backgroundColor: "transparent", 
+});</pre>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../../js/metodoto.js"></script>
+</body>
+</html>
+</body>
+</html>

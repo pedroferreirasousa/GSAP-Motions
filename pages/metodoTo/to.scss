@@ -1,0 +1,75 @@
+@import "../../css/variables";
+
+
+
+.container-geral{
+    display: flex;
+    text-align: center;
+}
+
+
+
+    h1{
+        margin: 16px 0px;
+    }
+    p{
+        color: $code-color;
+        margin: 16px 0px;
+    }
+
+.container-div{
+    // border: 1px solid $secondary-color;
+    width: 350px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 300px;
+
+    .item{
+        width: 100px;
+        height: 100px;
+        background-color: #3f3d3d;
+        // border-radius: 10px;
+    }
+    
+}
+
+.btn-animation{
+    background-color: $primary-color;
+    color: $secondary-color;
+    font-size: 24px;
+    width: 280px;
+    margin-top: 40px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $secondary-color;
+        color: $primary-color;
+        scale: 0.95;
+    }
+
+    &[disabled]{
+        background-color: grey;
+        color: $primary-color;
+        scale: 0.95;
+        cursor: not-allowed;
+    }
+}
+
+.code{
+    padding: 16px;
+    width: auto;
+    margin: 40px auto 0px auto;
+    line-height: 1.5;
+    display: flex;
+    word-wrap: wrap;
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    color: $secondary-color;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
