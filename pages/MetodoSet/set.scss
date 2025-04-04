@@ -1,0 +1,28 @@
+@import "../../css/variables";
+
+
+    h1{
+        margin: 16px 0px;
+    }
+    p{
+        color: $secondary-color;
+        margin: 16px 0px;
+    }
+
+.container-div{
+    max-width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+
+    .item{
+        width: 240px;
+        height: 90%;
+        margin: 5px;
+        background-color: #3f3d3d;
+        border-radius: 10px;
+    }
+
+
+
+}

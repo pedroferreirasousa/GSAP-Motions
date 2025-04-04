@@ -1,1 +1,171 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1a2228;
+}
+
+h1 {
+  color: #dedede;
+}
+
+h2 {
+  color: #1da360;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header h1 {
+  letter-spacing: 1px;
+  font-size: 26px;
+}
+header span {
+  color: #dedede;
+}
+header a {
+  text-decoration: none;
+  background-color: #1da360;
+  color: #dedede;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+header a:hover {
+  background-color: #dedede;
+  color: #1da360;
+  scale: 0.95;
+}
+
+.container-geral {
+  width: 100%;
+  height: auto;
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a2228;
+}
+
+.wrapper-cards {
+  margin: 20px auto 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 36px;
+  max-width: 1200px;
+  justify-content: center;
+}
+.wrapper-cards .card {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  margin: 20px 0px;
+}
+.wrapper-cards .card .title-card {
+  font-size: 20px;
+  color: #1da360;
+  text-align: center;
+}
+.wrapper-cards .card .img-card {
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid #1da360;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+.wrapper-cards .card .img-card:hover {
+  scale: 1.1;
+  box-shadow: 0px 0px 10px 4px #1da360;
+}
+.wrapper-cards .card .btn-card {
+  background-color: #dedede;
+  text-decoration: none;
+  width: 250px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: #1da360;
+  font-size: 18px;
+}
+.wrapper-cards .card .btn-card:hover {
+  background-color: #1da360;
+  color: #dedede;
+  scale: 0.95;
+}
+
+.p-estudos {
+  margin-top: 100px;
+  color: #dedede;
+  font-size: 36px;
+}
+.p-estudos span {
+  color: #1da360;
+  font-weight: 800;
+}
+
+.wrapper-estudo {
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.wrapper-estudo .estudo {
+  padding-top: 100px;
+  display: flex;
+  width: 1200px;
+  gap: 50px;
+  justify-content: center;
+}
+.wrapper-estudo .estudo h3 {
+  color: #1da360;
+  width: 50%;
+}
+.wrapper-estudo .estudo a {
+  width: 50%;
+  text-decoration: none;
+  color: #1da360;
+  background-color: #dedede;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border-radius: 10px;
+}
+.wrapper-estudo .estudo a:hover {
+  background-color: #1da360;
+  color: #dedede;
+  scale: 0.95;
+}/*# sourceMappingURL=style.css.map */
